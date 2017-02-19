@@ -72,6 +72,14 @@ a:after {
     padding: 0;
 }
 
+/*---------------------------------------------------
+	MAP
+---------------------------------------------------*/
+
+iframe#locationmap {
+    height: 400px;
+    width: 400px;
+}
 
 /*---------------------------------------------------
 	3.1 Topbar
@@ -183,7 +191,19 @@ a:after {
 	color: white;
 }
 
-/* Intnro Wrap */
+/* Intro Wrap */
+
+#hometop {
+	background: #2c3e50;
+	color: white;
+	padding-top: 20px;
+} 
+
+#hometop h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
+} 
 
 #intro {
 	background: #2c3e50;
@@ -204,10 +224,40 @@ a:after {
 }
 
 
+#accommodationswrap {
+	background: #2c3e50;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	color: white;
+}
+
+#accommodationswrap h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
+} 
+
+#accommodationswrap h3 {
+	color: white;
+}
+
+#accommodationswrap h5, p {
+	color: white;
+}
+
 #skillswrap {
 	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 20px;
+	color: white;
+}
+
+#skillswrap h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
+} 
+
+#skillswrap h3 {
 	color: white;
 }
 
@@ -251,12 +301,15 @@ a:after {
 	color: white
 }
 
-
-
 /* Global Values */
 
 .desc {
-	padding-top: 50px;
+	padding-top: 10px;
+
+}
+
+.fullsection {
+	padding-bottom: 60px;
 }
 
 .desc p {
