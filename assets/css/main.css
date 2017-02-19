@@ -78,7 +78,7 @@ a:after {
 
 iframe#locationmap {
     height: 400px;
-    width: 450px;
+    width: 80%;
 }
 
 #mapholder {
