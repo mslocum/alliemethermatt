@@ -272,23 +272,23 @@ iframe#locationmap {
 	color: white;
 }
 
-#skillswrap {
+#weddingparty {
 	background: #2c3e50;
 	padding-top: 20px;
 	color: white;
 }
 
-#skillswrap h1 {
+#weddingparty h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: white;
 } 
 
-#skillswrap h3 {
+#weddingparty h3 {
 	color: white;
 }
 
-#skillswrap h5, p {
+#weddingparty h5, p {
 	color: white;
 }
 
@@ -406,7 +406,6 @@ iframe#locationmap {
 .desc more {
 	color: #95a5a6;
 }
-
 
 sm {
 	font-size: 12px;
