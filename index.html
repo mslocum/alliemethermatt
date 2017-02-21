@@ -29,7 +29,13 @@
 		    $('body').smoothScroll({
 	        	delegateSelector: 'ul.nav a'
 	      	});
+	      	
+	      	$('.navbar-collapse a').click(function(){
+    			$(".navbar-collapse").collapse('hide');
+			});
 	    });
+	    
+
 	</script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -438,8 +444,10 @@
 					<img class="imgcell" src="assets/img/photos/opop_320x320.jpg"/>
 				</div>
 				<div class="col-lg-8">
-					Phone <a href="tel:2026951100">(202) 695-1100</a>
-					<p>stuff here</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					Phone <a href="tel:2026951100">(202) 695-1100</a> <br/>
+					Website <a href="https://www.trumphotels.com/washington-dc/luxury-washington-dc-hotels">Click Here</a> <br/>
+					Map <a href="https://goo.gl/maps/9pcMAGqPGiM2">Click Here</a>
 				</div>
 			</div>
 			<div class="row">
@@ -453,8 +461,10 @@
 					<img class="imgcell" src="assets/img/photos/hyatt_320x320.jpg"/>
 				</div>
 				<div class="col-lg-8">
-					 Phone <a href="tel:2025821234">(202) 582-1234</a>
-					 <p>stuff here</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					Phone <a href="tel:2025821234">(202) 582-1234</a><br/>
+					Website <a href="https://washingtondc.grand.hyatt.com/en/hotel/home.html">Click Here</a> <br/>
+					Map <a href="https://goo.gl/maps/HJKHyQ5C2Z92">Click Here</a>
 				</div>
 			</div>
 			<div class="row">
@@ -468,8 +478,10 @@
 					<img class="imgcell" src="assets/img/photos/marriott_320x320.jpg"/>
 				</div>
 				<div class="col-lg-8">
-					Phone <a href="tel:2023932000">(202) 393-2000</a>
-					<p>stuff here</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					Phone <a href="tel:2023932000">(202) 393-2000</a><br/>
+					Website <a href="http://www.marriott.com/hotels/travel/wasjw-jw-marriott-washington-dc/">Click Here</a> <br/>
+					Map <a href="https://goo.gl/maps/kKTfVRupxHP2">Click Here</a>
 				</div>
 			</div>
 		</div>
@@ -478,17 +490,39 @@
 	<section id="scheduleofevents" name="scheduleofevents"></section>
 	<div id="scheduleofevents">
 		<div class="row">
-			<div class="col-lg-11 col-lg-offset-1">
+			<div class="col-lg-8 col-lg-offset-1">
 				<h1>Schedule of Events</h1>
 			</div>
+			<div class="col-lg-3">
+				<a href="assets/other/alliemattwedding.ics"><i class="icon-file"></i></a>Add Events To Calendar
+			</div>
 		</div>
-		<div class="container-fluid fullsection">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
+				<div class="col-lg-11 col-lg-offset-1">
 					<h3>Friday 11.3.2017</h3>
 				</div>
-				<div class="col-lg-2 container-fluid">
-		    		<div class="row">
+				<div class="container-fluid">
+					<div class="row">
+							<div class="col-xs-3 righttext">
+								Welcome Party
+							</div>
+							<div class="col-xs-2 centered">
+								4:00 PM
+							</div>
+							<div class="col-lg-7">
+								Info here
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Saturday 11.4.2017</h3>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
 						<div class="col-xs-3 righttext">
 							Welcome Party
 						</div>
@@ -499,27 +533,9 @@
 							Info here
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h3>Saturday 11.4.2017</h3>
-				</div>
-				<div class="col-lg-2 container-fluid">
-		    		<div class="row">
-						<div class="col-xs-3 righttext">
-							Ceremony
-						</div>
-						<div class="col-xs-2 centered">
-							4:00 PM
-						</div>
-						<div class="col-lg-7">
-							Info here
-						</div>
-					</div>
 					<div class="row">
 						<div class="col-xs-3 righttext">
-							Reception
+							Welcome Party
 						</div>
 						<div class="col-xs-2 centered">
 							4:00 PM
@@ -527,17 +543,18 @@
 						<div class="col-lg-7">
 							Info here
 						</div>
+
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
+				<div class="col-lg-11 col-lg-offset-1">
 					<h3>Sunday 11.5.2017</h3>
 				</div>
-				<div class="col-lg-2 container-fluid">
-		    		<div class="row">
+				<div class="container-fluid fullsection">
+					<div class="row">
 						<div class="col-xs-3 righttext">
-							Brunch
+							Welcome Party
 						</div>
 						<div class="col-xs-2 centered">
 							4:00 PM
@@ -560,18 +577,21 @@
 		</div>
 		<div class="container-fluid fullsection">
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
+				<div class="col-lg-8 col-lg-offset-1">
 					<h3>Ann Sandra</h3>
+					<p><a href="#">stuff here</a></p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
+				<div class="col-lg-8 col-lg-offset-1">
 					<h3>Pottery Barn</h3>
+					<p><a href="#">stuff here</a></p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
+				<div class="col-lg-8 col-lg-offset-1">
 					<h3>Williams & Sonoma</h3>
+					<p><a href="#">stuff here</a></p>
 				</div>
 			</div>
 		</div>
@@ -584,98 +604,105 @@
 				<h1>Washington, D.C.</h1>
 			</div>
 		</div>
-		<div class="container-fluid fullsection">
+
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h3>Restaurants</h3>
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Our Favorite Restaurants</h3>
 				</div>
-			</div>
-			<div class="col-lg-2 container-fluid">
-		    	<div class="row">
-					<div class="col-xs-5 righttext">
-						Boqueria
+				<div class="container-fluid">
+					<div class="row">
+							<div class="col-xs-3 righttext">
+								Boqueria
+							</div>
+							<div class="col-xs-3 centered">
+								Click here
+							</div>
+							<div class="col-lg-6">
+								Info here
+							</div>
 					</div>
-					<div class="col-lg-7">
-						Info here
+					<div class="row">
+						<div class="col-xs-3 righttext">
+							Flippin' Pizza
+						</div>
+						<div class="col-xs-3 centered">
+							Click here
+						</div>
+						<div class="col-lg-6">
+							Info here
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-5 righttext">
-						Flippin' Pizza
+					<div class="row">
+						<div class="col-xs-3 righttext">
+							Matchbox
+						</div>
+						<div class="col-xs-3 centered">
+							Click here
+						</div>
+						<div class="col-lg-6">
+							Info here
+						</div>
 					</div>
-					<div class="col-lg-7">
-						Info here
+					<div class="row">
+						<div class="col-xs-3 righttext">
+							Old Ebbit Grill
+						</div>
+						<div class="col-xs-3 centered">
+							Click here
+						</div>
+						<div class="col-lg-6">
+							Info here
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-5 righttext">
-						Matchbox
+					<div class="row">
+						<div class="col-xs-3 righttext">
+							The Hamilton
+						</div>
+						<div class="col-xs-3 centered">
+							Click here
+						</div>
+						<div class="col-lg-6">
+							Info here
+						</div>
 					</div>
-					<div class="col-lg-7">
-						Info here
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-5 righttext">
-						Old Ebbitt Grill
-					</div>
-					<div class="col-lg-7">
-						Info here
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-5 righttext">
-						The Hamilton
-					</div>
-					<div class="col-lg-7">
-						Info here
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-5 righttext">
-						The Fainting Goat
-					</div>
-					<div class="col-lg-7">
-						Info here
+					<div class="row">
+						<div class="col-xs-3 righttext">
+							Fainting Goat
+						</div>
+						<div class="col-xs-3 centered">
+							Click here
+						</div>
+						<div class="col-lg-6">
+							Info here
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h3>Things To Do</h3>
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Things to do</h3>
 				</div>
-			</div>
-			<div class="col-lg-2 container-fluid">
-		    	<div class="row">
-					<div class="col-xs-5 righttext">
-						Washington Monument
+				<div class="container-fluid fullsection">
+					<div class="row">
+						<div class="col-xs-3 righttext">Washington Monument</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
 					</div>
-					<div class="col-lg-7">
-						Info here
+					<div class="row">
+						<div class="col-xs-3 righttext">Capitol Building</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-5 righttext">
-						Capitol Building
+					<div class="row">
+						<div class="col-xs-3 righttext">Ford's Theatre</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
 					</div>
-					<div class="col-lg-7">
-						Info here
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-5 righttext">
-						Ford's Theatre
-					</div>
-					<div class="col-lg-7">
-						Info here
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-5 righttext">
-						Newseum
-					</div>
-					<div class="col-lg-7">
-						Info here
+					<div class="row">
+						<div class="col-xs-3 righttext">Newseum</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
 					</div>
 				</div>
 			</div>
@@ -686,18 +713,89 @@
 	<div id="travelwrap">
 		<div class="row">
 			<div class="col-lg-11 col-lg-offset-1">
-				<h1>Washington, D.C.</h1>
+				<h1>Travel</h1>
 			</div>
 		</div>
-		<div class="container-fluid fullsection">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h3>By Air</h3>
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Planes</h3>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-3 righttext">Washington Monument</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Capitol Building</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Ford's Theatre</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Newseum</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h3>By Car</h3>
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Trains</h3>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-3 righttext">Washington Monument</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Capitol Building</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Ford's Theatre</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Newseum</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Automobiles</h3>
+				</div>
+				<div class="container-fluid fullsection">
+					<div class="row">
+						<div class="col-xs-3 righttext">Washington Monument</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Capitol Building</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Ford's Theatre</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Newseum</div>
+						<div class="col-xs-3 centered">Click here</div>
+						<div class="col-lg-6">Info here</div>
+					</div>
 				</div>
 			</div>
 		</div>

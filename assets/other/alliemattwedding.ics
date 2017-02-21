@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.marudot.com//iCal Event Maker
+X-WR-CALNAME:Welcome Party
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+TZURL:http://tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20170221T014954Z
+UID:20170221T014954Z-1130831670@marudot.com
+DTSTART;TZID="America/New_York":20171103T210000
+DTEND;TZID="America/New_York":20171104T000000
+SUMMARY:Allie & Matt's Welcome Party
+URL:http%3A%2F%2Fwww.thehamiltondc.com%2Frestaurant
+DESCRIPTION:Welcome party at the Hamilton wear your wristband in the welcome bag
+LOCATION:600 14th St NW\, Washington\, DC 20005
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170221T014954Z
+UID:20170221T014954Z-830941930@marudot.com
+DTSTART;TZID="America/New_York":20171104T150000
+DTEND;TZID="America/New_York":20171104T160000
+SUMMARY:Allie & Matt's Wedding Ceremony
+URL:http%3A%2F%2Fwww.saintpatrickdc.org%2F
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+LOCATION:619 10th St NW\, Washington\, DC 20001
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170221T014954Z
+UID:20170221T014954Z-2065948697@marudot.com
+DTSTART;TZID="America/New_York":20171104T170000
+DTEND;TZID="America/New_York":20171104T230000
+SUMMARY:Allie & Matt's Wedding Reception
+URL:https%3A%2F%2Fwww.trumphotels.com%2Fwashington-dc%2Fluxury-washington-dc-hotels
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+LOCATION:1100 Pennsylvania Ave NW\, Washington\, DC 20004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170221T014954Z
+UID:20170221T014954Z-696682123@marudot.com
+DTSTART;TZID="America/New_York":20171105T110000
+DTEND;TZID="America/New_York":20171105T150000
+SUMMARY:Allie & Matt's Goodbye Brunch
+URL:https%3A%2F%2Fwww.trumphotels.com%2Fwashington-dc%2Fluxury-washington-dc-hotels
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+LOCATION:1100 Pennsylvania Ave NW\, Washington\, DC 20004
+END:VEVENT
+END:VCALENDAR
