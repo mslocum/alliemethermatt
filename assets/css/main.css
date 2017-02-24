@@ -8,10 +8,10 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "Georgia";
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #987B46;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -19,9 +19,9 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Georgia";
     font-weight: 300;
-    color: #333;
+    color: #987B46;
 }
 
 
@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #d8d174;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -165,7 +165,7 @@ iframe#locationmap {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background: url(../img/background.png) no-repeat center top;
 	margin-top: 50px;
 	padding-top:140px;
 	text-align:center;
@@ -187,149 +187,149 @@ iframe#locationmap {
 
 #headerwrap h1 {
 	font-size: 80px;
-	color: white;
+	color: #987B46;
 }
 
 #headerwrap h3 {
 	font-size: 20px;
-	color: white;
+	color: #987B46;
 }
 
 /* Intro Wrap */
 
 #hometop {
-	background: #2c3e50;
-	color: white;
+	background: #16202d;
+	color: #987B46;
 	padding-top: 20px;
 } 
 
 #hometop h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: white;
+	color: #987B46;
 } 
 
 #intro {
-	background: #2c3e50;
+	background: #16202d;
 	padding-top: 20px;
 	padding-bottom: 60px;
-	color: white;
+	color: #987B46;
 } 
 
 #intro h5, p {
-	color: white;
+	color: #987B46;
 }
 
 #intro i {
-	color: white;
+	color: #987B46;
 	font-size: 20px;
 	padding-right: 8px;
 	vertical-align: middle;
 }
 
 #welcomewrap {
-	background: #2c3e50;
+	background: #16202d;
 	padding-top: 20px;
-	color: white;
+	color: #987B46;
 }
 
 #welcomewrap h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: white;
+	color: #987B46;
 } 
 
 #welcomewrap h3 {
-	color: white;
+	color: #987B46;
 }
 
 #welcomewrap h5, p {
-	color: white;
+	color: #987B46;
 }
 
 #groomsman p {
-	color: #333;
+	color: #987B46;
 }
 
 #accommodationswrap {
-	background: #2c3e50;
+	background: #16202d;
 	padding-top: 20px;
 	padding-bottom: 60px;
-	color: white;
+	color: #987B46;
 }
 
 #accommodationswrap h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: white;
+	color: #987B46;
 } 
 
 #accommodationswrap h3 {
-	color: white;
+	color: #987B46;
 }
 
 #accommodationswrap h5, p {
-	color: white;
+	color: #987B46;
 }
 
 #weddingparty {
-	background: #2c3e50;
+	background: #16202d;
 	padding-top: 20px;
-	color: white;
+	color: #987B46;
 }
 
 #weddingparty h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: white;
+	color: #987B46;
 } 
 
 #weddingparty h3 {
-	color: white;
+	color: #987B46;
 }
 
 #weddingparty h5, p {
-	color: white;
+	color: #987B46;
 }
 
 #registrywrap {
-	background: #2c3e50;
+	background: #16202d;
 	padding-top: 20px;
-	color: white;
+	color: #987B46;
 }
 
 #registrywrap h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: white;
+	color: #987B46;
 } 
 
 #registrywrap h3 {
-	color: white;
+	color: #987B46;
 }
 
 #registrywrap h5, p {
-	color: white;
+	color: #987B46;
 }
 
 #travelwrap {
-	background: #2c3e50;
+	background: #16202d;
 	padding-top: 20px;
-	color: white;
+	color: #987B46;
 }
 
 #travelwrap h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: white;
+	color: #987B46;
 } 
 
 #travelwrap h3 {
-	color: white;
+	color: #987B46;
 }
 
 #travelwrap h5, p {
-	color: #555;
+	color: #987B46;
 }
 
 #footwrap {
@@ -339,11 +339,11 @@ iframe#locationmap {
 }
 
 #footwrap p {
-	color: white;
+	color: #987B46;
 }
 
 #footwrap h5 {
-	color: white;
+	color: #987B46;
 }
 
 
@@ -365,17 +365,17 @@ iframe#locationmap {
 }
 
 #c p {
-	color: white;
+	color: #987B46;
 }
 
 /* Global Values */
 
 .whitetext p{
-	color: white;
+	color: #987B46;
 }
 
 .blacktext p{
-	color: #555;
+	color: #987B46;
 }
 
 .imgcell {
@@ -397,24 +397,36 @@ iframe#locationmap {
 }
 
 .desc p {
-	color: #2f2f2f;
+	color: #987B46;
 }
 
 .desc t {
-	color: #34495e;
+	color: #987B46;
 	font-weight: 700;
 }
 
 .desc imp {
 	padding: 6px;
-	color: white;
+	color: #987B46;
 	background: #34495e;
 }
 
 .desc more {
-	color: #95a5a6;
+	color: #987B46;
 }
 
 sm {
 	font-size: 12px;
+}
+
+.top-edge-shadow {
+	-webkit-box-shadow: 0px 4px 3px 0px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow:    0px 4px 3px 0px rgba(50, 50, 50, 0.55);
+	box-shadow:         0px 4px 3px 0px rgba(50, 50, 50, 0.55);
+}
+
+.bottom-edge-shadow {
+	-webkit-box-shadow: inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow:    inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
+	box-shadow:         inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
 }

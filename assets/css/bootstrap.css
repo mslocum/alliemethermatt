@@ -3816,7 +3816,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
-  font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 16px/24px;
+  font-family: "Amethysta";
 }
 
 .nav > li > a {
@@ -4388,8 +4389,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #111;
-  border-color: #e7e7e7;
+  background-color: #16202d;
+  border-color: #987B46;
 }
 
 .navbar-default .navbar-brand {
@@ -4403,11 +4404,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-text {
-  color: #fff;
+  color: #987B46;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: #987B46;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -4431,21 +4432,21 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #dddddd;
+  border-color: #987B46;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #dddddd;
+  background-color: #202f42;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #cccccc;
+  background-color: #987B46;
 }
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e6e6e6;
+  border-color: #987B46;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
