@@ -11,7 +11,7 @@ body {
     font-family: "Georgia";
     font-weight: 300;
     font-size: 16px;
-    color: #987B46;
+    color: #b99655;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -21,7 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Georgia";
     font-weight: 300;
-    color: #987B46;
+    color: #b99655;
 }
 
 
@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #d8d174;
+    color: rgba(210, 186, 91, 0.89);
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -165,7 +165,7 @@ iframe#locationmap {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/background.png) no-repeat center top;
+	background: url(../img/background1.png) no-repeat center top;
 	margin-top: 50px;
 	padding-top:140px;
 	text-align:center;
@@ -187,41 +187,41 @@ iframe#locationmap {
 
 #headerwrap h1 {
 	font-size: 80px;
-	color: #987B46;
+	color: #b99655;
 }
 
 #headerwrap h3 {
 	font-size: 20px;
-	color: #987B46;
+	color: #b99655;
 }
 
 /* Intro Wrap */
 
 #hometop {
 	background: #16202d;
-	color: #987B46;
+	color: #b99655;
 	padding-top: 20px;
 } 
 
 #hometop h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #987B46;
+	color: #b99655;
 } 
 
 #intro {
 	background: #16202d;
 	padding-top: 20px;
 	padding-bottom: 60px;
-	color: #987B46;
+	color: #b99655;
 } 
 
 #intro h5, p {
-	color: #987B46;
+	color: #b99655;
 }
 
 #intro i {
-	color: #987B46;
+	color: #b99655;
 	font-size: 20px;
 	padding-right: 8px;
 	vertical-align: middle;
@@ -230,106 +230,106 @@ iframe#locationmap {
 #welcomewrap {
 	background: #16202d;
 	padding-top: 20px;
-	color: #987B46;
+	color: #b99655;
 }
 
 #welcomewrap h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #987B46;
+	color: #b99655;
 } 
 
 #welcomewrap h3 {
-	color: #987B46;
+	color: #b99655;
 }
 
 #welcomewrap h5, p {
-	color: #987B46;
+	color: #b99655;
 }
 
 #groomsman p {
-	color: #987B46;
+	color: #b99655;
 }
 
 #accommodationswrap {
 	background: #16202d;
 	padding-top: 20px;
 	padding-bottom: 60px;
-	color: #987B46;
+	color: #b99655;
 }
 
 #accommodationswrap h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #987B46;
+	color: #b99655;
 } 
 
 #accommodationswrap h3 {
-	color: #987B46;
+	color: #b99655;
 }
 
 #accommodationswrap h5, p {
-	color: #987B46;
+	color: #b99655;
 }
 
 #weddingparty {
 	background: #16202d;
 	padding-top: 20px;
-	color: #987B46;
+	color: #b99655;
 }
 
 #weddingparty h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #987B46;
+	color: #b99655;
 } 
 
 #weddingparty h3 {
-	color: #987B46;
+	color: #b99655;
 }
 
 #weddingparty h5, p {
-	color: #987B46;
+	color: #b99655;
 }
 
 #registrywrap {
 	background: #16202d;
 	padding-top: 20px;
-	color: #987B46;
+	color: #b99655;
 }
 
 #registrywrap h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #987B46;
+	color: #b99655;
 } 
 
 #registrywrap h3 {
-	color: #987B46;
+	color: #b99655;
 }
 
 #registrywrap h5, p {
-	color: #987B46;
+	color: #b99655;
 }
 
 #travelwrap {
 	background: #16202d;
 	padding-top: 20px;
-	color: #987B46;
+	color: #b99655;
 }
 
 #travelwrap h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #987B46;
+	color: #b99655;
 } 
 
 #travelwrap h3 {
-	color: #987B46;
+	color: #b99655;
 }
 
 #travelwrap h5, p {
-	color: #987B46;
+	color: #b99655;
 }
 
 #footwrap {
@@ -339,11 +339,11 @@ iframe#locationmap {
 }
 
 #footwrap p {
-	color: #987B46;
+	color: #b99655;
 }
 
 #footwrap h5 {
-	color: #987B46;
+	color: #b99655;
 }
 
 
@@ -365,22 +365,28 @@ iframe#locationmap {
 }
 
 #c p {
-	color: #987B46;
+	color: #b99655;
 }
 
 /* Global Values */
 
 .whitetext p{
-	color: #987B46;
+	color: #b99655;
 }
 
 .blacktext p{
-	color: #987B46;
+	color: #b99655;
 }
 
 .imgcell {
 	width: 100%;
 	height: 100%;
+
+}
+
+.photodiv {
+	max-width: 320px;
+	max-height: 320px;
 }
 
 .righttext {
@@ -397,22 +403,22 @@ iframe#locationmap {
 }
 
 .desc p {
-	color: #987B46;
+	color: #b99655;
 }
 
 .desc t {
-	color: #987B46;
+	color: #b99655;
 	font-weight: 700;
 }
 
 .desc imp {
 	padding: 6px;
-	color: #987B46;
+	color: #b99655;
 	background: #34495e;
 }
 
 .desc more {
-	color: #987B46;
+	color: #b99655;
 }
 
 sm {
@@ -429,4 +435,10 @@ sm {
 	-webkit-box-shadow: inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
 	-moz-box-shadow:    inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
 	box-shadow:         inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
+}
+
+
+.imagedropshadow {
+    padding: 3px;
+    border: double 2px #b99655;
 }

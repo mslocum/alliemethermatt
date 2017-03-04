@@ -4250,7 +4250,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  padding-left: 20px;
+  line-height: 15px;
 }
 
 @media (max-width: 767px) {
@@ -4390,7 +4391,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default {
   background-color: #16202d;
-  border-color: #987B46;
+  border-color: #b99655;
 }
 
 .navbar-default .navbar-brand {
@@ -4404,11 +4405,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-text {
-  color: #987B46;
+  color: #b99655;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #987B46;
+  color: #b99655;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -4432,7 +4433,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #987B46;
+  border-color: #b99655;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -4441,12 +4442,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #987B46;
+  background-color: #b99655;
 }
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #987B46;
+  border-color: #b99655;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
