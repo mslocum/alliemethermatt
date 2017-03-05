@@ -63,11 +63,18 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-hr {
+hr.whitebackground {
     border: 0;
     height: 1px;
     background: #333;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#b99655), to(#F2F2F2), color-stop(75%, #F2F2F2));
+}
+
+hr.bluebackground {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#b99655), to(#16202d), color-stop(75%, #16202d));
 }
 
 /*---------------------------------------------------
@@ -384,7 +391,7 @@ iframe#locationmap {
 
 .photodiv {
 	max-width: 320px;
-	max-height: 320px;
+	max-height: 600px;
 }
 
 .righttext {
