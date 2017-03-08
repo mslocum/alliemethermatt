@@ -33,8 +33,16 @@
 	      	$('.navbar-collapse a').click(function(){
     			$(".navbar-collapse").collapse('hide');
 			});
+
+	      	function showSlides() {
+	      		$("#headerwrap").css('background', 'url(assets/img/background.png)');
+
+	      	}
+
+	      	setTimeout(showSlides, 15000); // Change image every 15 seconds
+
 	    });
-	    
+
 
 	</script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,14 +66,14 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           	<ul class="nav navbar-nav">
-				<li class="menu-item"><a href="#welcomewrap" title="Welcome">Welcome</a></li>
-				<li class="menu-item"><a href="#ourstory" title="Our Story">Our Story</a></li>
-				<li class="menu-item"><a href="#weddingparty" title="Wedding Party">Wedding Party</a></li>
-				<li class="menu-item"><a href="#accommodations" title="Accomodations">Accomodations</a></li>
-				<li class="menu-item"><a href="#scheduleofevents" title="Schedule">Schedule</a></li>
-				<li class="menu-item"><a href="#registry" title="Registry">Registry</a></li>
-				<li class="menu-item"><a href="#whattodo" title="What To Do">What To Do</a></li>
-				<li class="menu-item"><a href="#travel" title="Travel">Travel</a></li>
+				<li><a href="#welcomewrap" title="Welcome">Welcome</a></li>
+				<li><a href="#ourstory" title="Our Story">Our Story</a></li>
+				<li><a href="#weddingparty" title="Wedding Party">Wedding Party</a></li>
+				<li><a href="#accommodations" title="Accomodations">Accomodations</a></li>
+				<li><a href="#scheduleofevents" title="Schedule">Schedule</a></li>
+				<li><a href="#registry" title="Registry">Registry</a></li>
+				<li><a href="#travel" title="Travel">Travel</a></li>
+				<li><a href="#whattodo" title="What To Do">What To Do</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -110,11 +118,11 @@
 	</div><!--/.#headerwrap -->
 	
 	<section id="about" name="about"></section>
-	<div id="welcomewrap">
+	<div id="welcomewrap" class="top-edge-shadow">
 		<div class="container-fluid">
 			<div class="row">
 				<div id="hometop" class="col-lg-11">
-					<h1>Welcome</h1>
+					<h1>Welcome</h1><hr class="bluebackground">
 				</div>
 			</div>
 			<div id="intro">
@@ -131,10 +139,10 @@
 
 	<section id="ourstory" name="ourstory"></section>
 	<!--our story-->
-	<div class="container-fluid desc">
+	<div class="container-fluid desc bottom-edge-shadow">
 	<div class="row">
 		<div class="col-lg-11">
-			<h1>Our Story</h1>
+			<h1>Our Story</h1><hr class="whitebackground">
 		</div>
 	</div>
 	<div class="fullsection">
@@ -148,7 +156,6 @@
 					</p>
 			</div>
 		</div><!--/.row -->
-		<hr>
 		<div class="row">
 
 				<div class="col-lg-12">
@@ -160,7 +167,6 @@
 					</p>
 				</div>
 		</div><!--/.row -->
-		<hr>
 		<div class="row">
 
 				<div class="col-lg-12">
@@ -180,252 +186,105 @@
 
 	<!--Wedding party -->
 	
-	<div id="weddingparty">
+	<div id="weddingparty" class="top-edge-shadow">
 	<div class="container-fluid">	
 		<div class="row">
 			<div class="col-lg-11">
-				<h1>Bridesmaids</h1>
+				<h1>Wedding Party</h1><hr class="bluebackground">
 			</div>
 		</div>
 	</div>
 		<div class="container-fluid fullsection">
 			<div class="row">
-					<div class="col-lg-12">
-						<h3>Jessi Friend - Maid of Honor</h3>
-					</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Jessi Friend</h3><h4>Maid of Honor</h4>
+					<a href="#" id="jessimodalbutton" data-toggle="modal" data-target="#jessimodal"><img class="imgcell imagedropshadow" src="assets/img/photos/jessi_320x320.jpg"/></a>
+				</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Patrick Robertson</h3><h4>Best Man</h4>
+					<a href="#" id="patmodalbutton" data-toggle="modal" data-target="#patmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/pat_320x320.jpg"/></a>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-xs-6 photodiv">
+					<h3>Alex Corbutt</h3>
+					<a href="#" id="alexmodalbutton" data-toggle="modal" data-target="#alexmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/alex_320x320.jpg"/></a>
+				</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Ben Levine</h3>
+					<a href="#" id="benmodalbutton" data-toggle="modal" data-target="#benmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/opop_320x320.jpg"/></a>
+				</div>
 			</div>
 			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/jessi_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8 whitetext">
-					            <p>Allie and I met 28 years ago on February 13, 1989 and it was on that day that she made me a big sister. I am sure my parents were also pretty excited about this addition to our family but I was fairly certain she was all mine. What I didn't know at that moment and would quickly learn is that Allie wasn't going to be my dress-up doll. She was going to be her own genuine and unique self, the one to make us laugh, remind us of the most obscure memory down to every detail, and the one who loves and cares so deeply. I truly admire this about Allie--her compassion and concern for others is unmatched. I am certain the phrase "all the feels" was written with Allie in mind. Paired with that compassion is her sense of humor and confident warmth. Allie has never met a stranger!</p>
+				<div class="col-xs-6 photodiv">
+					<h3>Danielle Caroll</h3>
+					<a href="#" id="daniellemodalbutton" data-toggle="modal" data-target="#daniellemodal"><img class="imgcell imagedropshadow" src="assets/img/photos/danielle_320x320.jpg"/></a>
+				</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Chadd Hippensteel</h3>
+					<a href="#" id="chaddmodalbutton" data-toggle="modal" data-target="#chaddmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/opop_320x320.jpg"/></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 photodiv">
+					<h3>Danielle Mathewson</h3>
+					<a href="#" id="mathewsonmodalbutton" data-toggle="modal" data-target="#mathewsonmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/mathewson_320x320.jpg"/></a>
+				</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Justin Bale</h3>
+					<a href="#" id="justinmodalbutton" data-toggle="modal" data-target="#justinmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/justin_320x320.jpg"/></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 photodiv">
+					<h3>Julia Guimond</h3>
+					<a href="#" id="juilamodalbutton" data-toggle="modal" data-target="#juliamodal"><img class="imgcell imagedropshadow" src="assets/img/photos/opop_320x320.jpg"/></a>
+				</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Matt Daniels</h3>
+					<a href="#" id="danielsmodalbutton" data-toggle="modal" data-target="#danielsmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/daniels_320x320.jpg"/></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 photodiv">
+					<h3>Julianne Webb</h3>
+					<a href="#" id="webbmodalbutton" data-toggle="modal" data-target="#webbmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/webb_320x320.jpg"/></a>
+				</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Matt Davis</h3>
+					<a href="#" id="davismodalbutton" data-toggle="modal" data-target="#davismodal"><img class="imgcell imagedropshadow" src="assets/img/photos/davis_320x320.jpg"/></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 photodiv">
+					<h3>Layne Starkey</h3>
+					<a href="#" id="laynemodalbutton" data-toggle="modal" data-target="#laynemodal"><img class="imgcell imagedropshadow" src="assets/img/photos/layne_320x320.jpg"/></a>
+				</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Tim Frend</h3>
+					<a href="#" id="timfmodalbutton" data-toggle="modal" data-target="#timfmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/timf_320x320.jpg"/></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 photodiv">
+					<h3>Meghan Kane</h3>
+					<a href="#" id="meghanmodalbutton" data-toggle="modal" data-target="#meghanmodal"><img class="imgcell imagedropshadow" src="assets/img/photos/meghan_320x320.jpg"/></a>
+				</div>
+				<div class="col-xs-6 photodiv">
+					<h3>Tim Malloy</h3>
+					<a href="#" id="malloymodalbutton" data-toggle="modal" data-target="#malloymodal"><img class="imgcell imagedropshadow" src="assets/img/photos/malloy_320x320.jpg"/></a>
+				</div>
+			</div>
 
-								<p>As we grew older, I watched Allie identify and foster friendships with people who, like her, are committed to doing good while not taking themselves too seriously. In that vein, it was during the summer of 2013 that a new person had joined her band of merry travelers...and with a leading role! Once Tim and I met Matt, we knew they were perfect complements. He is the calm to her excitement, the ready laughter to her humor (as she is to his), the sous chef eager to attempt their next kitchen masterpiece, and the "Uncle" to her "Aunt". Jack and Libby love few people more than their Aunt Allie and Uncle Matt and we are all so excited and honored to cheer them on and stand by their sides on their special day...and to clear the dance floor while they both tear it up! We love you, Allie and Matt.
-								</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Alex Corbutt</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/alex_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8 whitetext">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Danielle Caroll</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/danielle_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8 whitetext">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Danielle Mathewson</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/mathewson_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8 whitetext">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Julia Guimond</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/opop_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8 whitetext">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Julianne Webb</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/webb_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8 whitetext">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Layne Starkey</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/layne_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8 whitetext">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Meghan Kane</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/meghan_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8 whitetext">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			</div><!--/.row -->
 		</div><!--/.container -->
 	</div><!--/ #skillswrap -->
 
-	<section id="groomsman" name="groomsman"></section>
-	<div id="groomsman">
-		<div class="container-fluid">	
-			<div class="row">
-				<div class="col-lg-11">
-					<h1>Groomsmen</h1>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid fullsection">
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Patrick Robertson - Best Man</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/pat_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Ben Levine</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/opop_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Chadd Hippensteel</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/opop_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Justin Bale</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/justin_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Matt Daniels</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/daniels_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Matt Davis</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/davis_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8">
-					            <p>I feel like it's rare that you can remember the first time you saw someone that isn't a romantic connection, but I can vividly recall when I first saw Slocum with Matt Daniels at a bus stop waiting to go to frats during the first few days at Penn State - you couldn't miss this odd couple. Soon, Slocum was my pledge class president as we pledged at Sig Chi. Little did I know then just how much this guy would change my life...I owe my marriage to him. He helped to set me up with my now wife way back during our Freshman year of college. Stacy and I were both too shy to make a first move, but Slocum the social butterfly had no problem getting us to hang out more often and exchange AOL instant messenger screen names.</p>
-					            <p>Fast forward nine years and Slocum and his then girlfriend Allie were the first of our friends to come visit us in Pittsburgh after the birth of our first child. Not surprising in the least - that is just the type of guy and friend that he is.</p>
-					            <p>During that nine year time gap, there were countless hilarious moments, hundreds of hours of aimless chatting (a few were actually serious), and lots and lots of beer. But best of all, I became lifelong friends with a guy who is always genuine and caring, and is sometimes funny. Best wishes Allie and Matt, and thanks for letting me be part of your celebration.</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Tim Frend</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/timf_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8">
-					            <p>It's hard to believe I met Allie when she was 13 years old--more than half her life ago. As Allie famously said when I married her lovely older sister, Jessi...I am the brother she "never wanted but always had!" She delivered that Maid-of-Honor speech with confidence and punch when she was only 17. And she may not have realized it at the time, but that quote so aptly describes our relationship. As the youngest of four boys, I never had a younger sibling to pick on, much less a younger sister! Allie, you were the unfortunate victim of circumstance! Kidding aside, I felt instantly comfortable with Allie, as so many do. She has a gift. She is hilarious, self-deprecating, fun, disarming, thoughtful, generous, and kind--a genuinely great person. Yes, she may be completely unstable on ice and oddly afraid of seagulls, but let's not draw attention to that. She has been at the center of so many wonderful and momentous memories in my life, but also at the center of simple text messages with video links to silly humor. I am eternally thankful to call her "Sis", to have her as an amazing and loving Aunt to my children (and God Mother to one), and that she ultimately found a partner cut from the same quality material. Matt, I'm honored to be your groomsman and can't wait be your brother-in-law. Wishing you both a life of love and happiness.</p>
-					        </div>
-			</div>
-			<div class="row">
-					<div class="col-lg-12">
-						<h3>Tim Malloy</h3>
-					</div>
-			</div>
-			<div class="row">
-					        <div class="col-xs-4">
-								<img class="imgcell" src="assets/img/photos/malloy_320x320.jpg"/>
-					        </div>
-					        <div class="col-lg-8">
-					            <p> your story here</p>
-					        </div>
-			</div>
-			</div><!--/.row -->
-		</div>
-
-	</div>
-
 	<section id="accommodations" name="accommodations"></section>
-	<div id="accommodationswrap">
+	<div id="accommodationswrap" class="bottom-edge-shadow">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1>Accomodations</h1>
+				<h1>Accomodations</h1><hr class="whitebackground">
 			</div>
 		</div>
 		<div class="container-fluid fullsection">
@@ -442,14 +301,14 @@
 				</div>
 			</div>
 		    <div class="row">
-				<div class="col-xs-4">
-					<img class="imgcell" src="assets/img/photos/opop_320x320.jpg"/>
+				<div class="col-xs-5 photodiv">
+					<img class="imgcell imagedropshadow" src="assets/img/photos/opop_320x320.jpg"/>
 				</div>
-				<div class="col-lg-8 whitetext">
+				<div class="col-lg-7 whitetext">
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					Phone <a href="tel:2026951100">(202) 695-1100</a> <br/>
-					Website <a href="https://www.trumphotels.com/washington-dc/luxury-washington-dc-hotels">Click Here</a> <br/>
-					Map <a href="https://goo.gl/maps/9pcMAGqPGiM2">Click Here</a>
+					<a href="tel:2026951100" type="button" class="btn btn-calendar">(202) 695-1100</a> <br/><br/>
+					<a href="https://www.trumphotels.com/washington-dc/luxury-washington-dc-hotels" type="button" class="btn btn-calendar">OPOP Website</a> <br/><br/>
+					<a href="https://goo.gl/maps/9pcMAGqPGiM2" type="button" class="btn btn-calendar">Google Maps</a>
 				</div>
 			</div>
 			<div class="row">
@@ -459,44 +318,44 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-4">
-					<img class="imgcell" src="assets/img/photos/hyatt_320x320.jpg"/>
+				<div class="col-xs-5 photodiv">
+					<img class="imgcell imagedropshadow" src="assets/img/photos/hyatt_320x320.jpg"/>
 				</div>
-				<div class="col-lg-8 whitetext">
+				<div class="col-lg-7 whitetext">
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					Phone <a href="tel:2025821234">(202) 582-1234</a><br/>
-					Website <a href="https://washingtondc.grand.hyatt.com/en/hotel/home.html">Click Here</a> <br/>
-					Map <a href="https://goo.gl/maps/HJKHyQ5C2Z92">Click Here</a>
+					<a href="tel:2025821234" type="button" class="btn btn-calendar">(202) 582-1234</a><br/><br/>
+					<a href="https://washingtondc.grand.hyatt.com/en/hotel/home.html" type="button" class="btn btn-calendar">Grand Hyatt Website</a> <br/><br/>
+					<a href="https://goo.gl/maps/HJKHyQ5C2Z92" type="button" class="btn btn-calendar">Google Maps</a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
 					<h3>JW Marriott Washington, DC</h3>
-					<h5>1331 Pennsylvania Ave NW, Washington, DC 20004/h5>
+					<h5>1331 Pennsylvania Ave NW, Washington, DC 20004</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-4">
-					<img class="imgcell" src="assets/img/photos/marriott_320x320.jpg"/>
+				<div class="col-xs-5 photodiv">
+					<img class="imgcell imagedropshadow" src="assets/img/photos/marriott_320x320.jpg"/>
 				</div>
-				<div class="col-lg-8 whitetext">
+				<div class="col-lg-7 whitetext">
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					Phone <a href="tel:2023932000">(202) 393-2000</a><br/>
-					Website <a href="http://www.marriott.com/hotels/travel/wasjw-jw-marriott-washington-dc/">Click Here</a> <br/>
-					Map <a href="https://goo.gl/maps/kKTfVRupxHP2">Click Here</a>
+					<a href="tel:2023932000" type="button" class="btn btn-calendar">(202) 393-2000</a><br/><br/>
+					<a href="http://www.marriott.com/hotels/travel/wasjw-jw-marriott-washington-dc/" type="button" class="btn btn-calendar">JW Marriott Website</a> <br/><br/>
+					<a href="https://goo.gl/maps/kKTfVRupxHP2" type="button" class="btn btn-calendar">Google Maps</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<section id="scheduleofevents" name="scheduleofevents"></section>
-	<div id="scheduleofevents">
+	<div id="scheduleofeventswrap" class="top-edge-shadow">
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-1">
-				<h1>Schedule of Events</h1>
+			<div class="col-lg-7 col-lg-offset-1">
+				<h1>Schedule of Events</h1><hr class="bluebackground">
 			</div>
-			<div class="col-lg-3">
-				<a href="assets/other/alliemattwedding.ics">Add Events To Calendar <i class="icon-calendar"></i></a>
+			<div class="col-lg-4">
+				<a href="assets/other/alliemattwedding.ics" type="button" class="btn btn-calendar"><b>Add Events To Calendar</b> &nbsp; <i class="icon-calendar"></i></a>
 			</div>
 		</div>
 		<div class="container-fluid">
@@ -571,39 +430,107 @@
 	</div>
 
 	<section id="registry" name="registry"></section>
-	<div id="registrywrap">
+	<div id="registrywrap" class="bottom-edge-shadow">
 		<div class="row">
 			<div class="col-lg-11 col-lg-offset-1">
-				<h1>Registry</h1>
+				<h1>Registry</h1><hr class="whitebackground">
 			</div>
 		</div>
 		<div class="container-fluid fullsection">
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-1">
-					<h3>Ann Sandra</h3>
-					<p><a href="#">stuff here</a></p>
+				<div class="col-sm-4 photodiv">
+					<br/>
+					<p><a href="#"><img class="imgcell imagedropshadow" src="assets/img/annsandra.png"/></a></p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-1">
-					<h3>Pottery Barn</h3>
-					<p><a href="#">stuff here</a></p>
+				<div class="col-sm-4 photodiv">
+					<br/>
+					<p><a href="#"><img class="imgcell imagedropshadow" src="assets/img/williamsonoma.png"/></a></p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-1">
-					<h3>Williams & Sonoma</h3>
-					<p><a href="#">stuff here</a></p>
+				<div class="col-sm-4 photodiv">
+					<br/>
+					<p><a href="#"><img class="imgcell imagedropshadow" src="assets/img/potterybarn.jpg"/></a></p>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<section id="whattodo" name="whattodo"></section>
-	<div id="whattodo">
+
+<section id="travel" name="travel"></section>
+	<div id="travelwrap" class="bottom-edge-shadow">
 		<div class="row">
 			<div class="col-lg-11 col-lg-offset-1">
-				<h1>Washington, D.C.</h1>
+				<h1>Travel</h1><hr class="bluebackground">
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Planes</h3>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-3 righttext">Ronald Reagan Washington National Airport</div>
+						<div class="col-xs-3 centered"><a href="https://goo.gl/maps/zpz1bqjahhJ2" type="button" class="btn btn-calendar">Google Maps</a></div>
+						<div class="col-xs-6 whitetext"><p>Reagan is the most convenient airport.  You can easily take a taxi five miles from the Airport to any of the hotels.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Baltimore Washington International Airport</div>
+						<div class="col-xs-3 centered"><a href="https://goo.gl/maps/i6LRWe8mCY72" type="button" class="btn btn-calendar">Google Maps</a></div>
+						<div class="col-xs-6 whitetext"><p>BWI is also a convenient airport, but will probably require a rental car.  The drive will take approximately 50 minutes depending on traffic.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">Dulles International Airport</div>
+						<div class="col-xs-3 centered"><a href="https://goo.gl/maps/KoU4LUwNhpN2" type="button" class="btn btn-calendar">Google Maps</a></div>
+						<div class="col-xs-6 whitetext"><p>Dulles is just as convenient as BWI.  It will also require a rental car.  The drive will take approximately 50 minutes depending on traffic.</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Trains</h3>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-3 righttext">Amtrak Union Station</div>
+						<div class="col-xs-3 centered"><a href="https://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&code=WAS" type="button" class="btn btn-calendar">Amtrack <br>Website</a></div>
+						<div class="col-xs-6 whitetext"><p>After arriving at Union Station, take a taxi two miles to The Old Post Office Pavilion</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-11 col-lg-offset-1">
+					<h3>Automobiles</h3>
+				</div>
+				<div class="container-fluid fullsection">
+					<div class="row">
+						<div class="col-xs-3 righttext">From BWI and I-95 from the North<br/><i>35 Miles</i></div>
+						<div class="col-xs-3 centered"><a href="https://goo.gl/maps/TJAMbjuPw6w" type="button" class="btn btn-calendar">Map from BWI</a></div>
+						<div class="col-xs-6 whitetext"><p>Take I-95 S, I-495 S, Baltimore-Washington Pkwy and State Hwy 295 to Maine Ave SW in Washington. Take the Maine Ave exit from I-395 S. Take 15th St NW to Pennsylvania Ave NW.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">From Pittsburgh and I-270 from the North</div>
+						<div class="col-xs-3 centered"><a href="https://goo.gl/maps/hHFhzNjEEzn" type="button" class="btn btn-calendar">Map from <br>Pittsburgh</a></div>
+						<div class="col-xs-6 whitetext"><p>Take I-270 S and George Washington Memorial Pkwy to 12th St Expy in Washington. Take the 12th St exit from I-395 N. Continue on 12th St Expy. Drive to Pennsylvania Ave NW.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">From Dulles International Airport<br/><i>28 Miles</i></div>
+						<div class="col-xs-3 centered"><a href="https://goo.gl/maps/76QdYjJnoED2" type="button" class="btn btn-calendar">Map from <br>Dulles Airport</a></div>
+						<div class="col-xs-6 whitetext"><p>Continue on Dulles Access Rd. Take I-66 E to US-50 E/Constitution Ave NW in Washington. Exit from I-66 E. Continue on US-50 E/Constitution Ave NW. Drive to Pennsylvania Ave NW.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 righttext">From Ronald Reagan Washington National Airport<br/><i>5 Miles</i></div>
+						<div class="col-xs-3 centered"><a href="https://goo.gl/maps/GCyoYxQQz3E2" type="button" class="btn btn-calendar">Map from <br>Reagan Airport</a></div>
+						<div class="col-xs-6 whitetext"><p>Get on I-395 N from George Washington Memorial Pkwy. Continue on I-395 N. Take 12th St Expy to 12th St NW. Continue on 12th St NW. Drive to Pennsylvania Ave NW.</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section id="whattodo" name="whattodo"></section>
+	<div id="whattodo" class="bottom-edge-shadow">
+		<div class="row">
+			<div class="col-lg-11 col-lg-offset-1">
+				<h1>Washington, D.C.</h1><hr class="whitebackground">
 			</div>
 		</div>
 
@@ -675,84 +602,368 @@
 		</div>
 	</div>
 
-	<section id="travel" name="travel"></section>
-	<div id="travelwrap">
-		<div class="row">
-			<div class="col-lg-11 col-lg-offset-1">
-				<h1>Travel</h1>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-11 col-lg-offset-1">
-					<h3>Planes</h3>
-				</div>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xs-3 righttext">Reagan National Airport</div>
-						<div class="col-xs-3 centered">Click here</div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-					<div class="row">
-						<div class="col-xs-3 righttext">Baltimore Washington International Airport</div>
-						<div class="col-xs-3 centered">Click here</div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-					<div class="row">
-						<div class="col-xs-3 righttext">Dulles International Airport</div>
-						<div class="col-xs-3 centered">Click here</div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-11 col-lg-offset-1">
-					<h3>Trains</h3>
-				</div>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xs-3 righttext">Amtrak Union Station</div>
-						<div class="col-xs-3 centered"><a href="https://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&code=WAS">Amtrack Website</a></div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-11 col-lg-offset-1">
-					<h3>Automobiles</h3>
-				</div>
-				<div class="container-fluid fullsection">
-					<div class="row">
-						<div class="col-xs-3 righttext">From BWI and I-95 from the North</div>
-						<div class="col-xs-3 centered">Click here</div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-					<div class="row">
-						<div class="col-xs-3 righttext">From Pittsburgh and I-270 from the North</div>
-						<div class="col-xs-3 centered">Click here</div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-					<div class="row">
-						<div class="col-xs-3 righttext">From Dulles</div>
-						<div class="col-xs-3 centered">Click here</div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-					<div class="row">
-						<div class="col-xs-3 righttext">I-95 from the South</div>
-						<div class="col-xs-3 centered">Click here</div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-					<div class="row">
-						<div class="col-xs-3 righttext">From Reagan</div>
-						<div class="col-xs-3 centered">Click here</div>
-						<div class="col-xs-6 whitetext"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 
 
+
+
+
+<!-- Modal -->
+<div id="jessimodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Jessi Frend</h4>
+      </div>
+      <div class="modal-body">
+        <p>Allie and I met 28 years ago on February 13, 1989 and it was on that day that she made me a big sister. I am sure my parents were also pretty excited about this addition to our family but I was fairly certain she was all mine. What I didn't know at that moment and would quickly learn is that Allie wasn't going to be my dress-up doll. She was going to be her own genuine and unique self, the one to make us laugh, remind us of the most obscure memory down to every detail, and the one who loves and cares so deeply. I truly admire this about Allie--her compassion and concern for others is unmatched. I am certain the phrase "all the feels" was written with Allie in mind. Paired with that compassion is her sense of humor and confident warmth. Allie has never met a stranger!</p>
+
+		<p>As we grew older, I watched Allie identify and foster friendships with people who, like her, are committed to doing good while not taking themselves too seriously. In that vein, it was during the summer of 2013 that a new person had joined her band of merry travelers...and with a leading role! Once Tim and I met Matt, we knew they were perfect complements. He is the calm to her excitement, the ready laughter to her humor (as she is to his), the sous chef eager to attempt their next kitchen masterpiece, and the "Uncle" to her "Aunt". Jack and Libby love few people more than their Aunt Allie and Uncle Matt and we are all so excited and honored to cheer them on and stand by their sides on their special day...and to clear the dance floor while they both tear it up! We love you, Allie and Matt.
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="alexmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Jessi Frend</h4>
+      </div>
+      <div class="modal-body">
+        <p>Alex stuff goes here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="daniellemodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Danielle Caroll</h4>
+      </div>
+      <div class="modal-body">
+        <p>danielle stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="mathewsonmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Danielle Mathewson</h4>
+      </div>
+      <div class="modal-body">
+        <p>mathewsonstuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="juliamodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Julia Guimond</h4>
+      </div>
+      <div class="modal-body">
+        <p>julia stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="webbmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Julianne Webb</h4>
+      </div>
+      <div class="modal-body">
+        <p>webb stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="laynemodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Layne Starkey</h4>
+      </div>
+      <div class="modal-body">
+        <p>laynestuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="meghanmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Meghan Kane</h4>
+      </div>
+      <div class="modal-body">
+        <p>meghan stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div id="patmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Pat Robertson</h4>
+      </div>
+      <div class="modal-body">
+        <p>pat stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="benmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Ben Levine</h4>
+      </div>
+      <div class="modal-body">
+        <p>Ben stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="chadmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Chadd Hippensteel</h4>
+      </div>
+      <div class="modal-body">
+        <p>chadd stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="justinmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Justin Bale</h4>
+      </div>
+      <div class="modal-body">
+        <p>justin stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="danielsmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Matt Daniels</h4>
+      </div>
+      <div class="modal-body">
+        <p>daniels stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="davismodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Matt Davis</h4>
+      </div>
+      <div class="modal-body">
+        <p>I feel like it's rare that you can remember the first time you saw someone that isn't a romantic connection, but I can vividly recall when I first saw Slocum with Matt Daniels at a bus stop waiting to go to frats during the first few days at Penn State - you couldn't miss this odd couple. Soon, Slocum was my pledge class president as we pledged at Sig Chi. Little did I know then just how much this guy would change my life...I owe my marriage to him. He helped to set me up with my now wife way back during our Freshman year of college. Stacy and I were both too shy to make a first move, but Slocum the social butterfly had no problem getting us to hang out more often and exchange AOL instant messenger screen names.</p>
+		<p>Fast forward nine years and Slocum and his then girlfriend Allie were the first of our friends to come visit us in Pittsburgh after the birth of our first child. Not surprising in the least - that is just the type of guy and friend that he is.</p>
+		<p>During that nine year time gap, there were countless hilarious moments, hundreds of hours of aimless chatting (a few were actually serious), and lots and lots of beer. But best of all, I became lifelong friends with a guy who is always genuine and caring, and is sometimes funny. Best wishes Allie and Matt, and thanks for letting me be part of your celebration.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="timfmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Tim Frend</h4>
+      </div>
+      <div class="modal-body">
+        <p>It's hard to believe I met Allie when she was 13 years old--more than half her life ago. As Allie famously said when I married her lovely older sister, Jessi...I am the brother she "never wanted but always had!" She delivered that Maid-of-Honor speech with confidence and punch when she was only 17. And she may not have realized it at the time, but that quote so aptly describes our relationship. As the youngest of four boys, I never had a younger sibling to pick on, much less a younger sister! Allie, you were the unfortunate victim of circumstance! Kidding aside, I felt instantly comfortable with Allie, as so many do. She has a gift. She is hilarious, self-deprecating, fun, disarming, thoughtful, generous, and kind--a genuinely great person. Yes, she may be completely unstable on ice and oddly afraid of seagulls, but let's not draw attention to that. She has been at the center of so many wonderful and momentous memories in my life, but also at the center of simple text messages with video links to silly humor. I am eternally thankful to call her "Sis", to have her as an amazing and loving Aunt to my children (and God Mother to one), and that she ultimately found a partner cut from the same quality material. Matt, I'm honored to be your groomsman and can't wait be your brother-in-law. Wishing you both a life of love and happiness.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="malloymodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Tim Malloy</h4>
+      </div>
+      <div class="modal-body">
+        <p>malloy stuff here</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 	<section id="contact" name="contact"></section>
 	<!--FOOTER DESCRIPTION -->
