@@ -3816,8 +3816,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
-  font: normal 16px/24px;
-  font-family: "Amethysta";
+  font-family: 'Fira Sans';font-size: 18px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  list-style-type: none;
 }
 
 .nav > li > a {
@@ -4088,6 +4093,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-collapse {
+  text-align: center;
   max-height: 340px;
   padding-right: 5px;
   padding-left: 5px;
@@ -4126,6 +4132,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     width: auto;
     border-top: 0;
     box-shadow: none;
+    text-align: center;
   }
   .navbar-collapse.collapse {
     display: block !important;
@@ -4216,14 +4223,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-toggle {
   position: relative;
-  float: right;
+  width: 100%;
+  float: none;
+  margin-right: 0;
   padding: 9px 10px;
   margin-top: 8px;
-  margin-right: 15px;
   margin-bottom: 8px;
   background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 4px;
 }
 
 .navbar-toggle .icon-bar {
@@ -4390,8 +4396,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #16202d;
-  border-color: #b99655;
+  background-color: #f2f2f2;
 }
 
 .navbar-default .navbar-brand {
@@ -4433,12 +4438,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #b99655;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #202f42;
+  background-color: #f2f2f2;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -4448,6 +4452,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #b99655;
+  -webkit-box-shadow: inset 0px -3px 3px 0px rgba(50, 50, 50, 0.55);
+  -moz-box-shadow:    inset 0px -3px 3px 0px rgba(50, 50, 50, 0.55);
+  box-shadow:         inset 0px -3px 3px 0px rgba(50, 50, 50, 0.55);
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,

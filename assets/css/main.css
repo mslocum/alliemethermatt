@@ -7,7 +7,7 @@
  */
 
 body {
-  background-color: #f2f2f2;
+  background-color: #fff;
     font-family: "Georgia";
     font-weight: 300;
     font-size: 16px;
@@ -101,7 +101,10 @@ iframe#locationmap {
 	right: 0;
 	z-index: 10000;
 	overflow: visible;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "proxima-nova";
+	font-style: normal;
+	font-weight: 400;
+
 }
 
 #section-topbar a {
@@ -114,6 +117,14 @@ iframe#locationmap {
 	text-align: center;
 }
 
+span {
+	font-family: 'Fira Sans';font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  color: #b99655;
+}
 /*
 	Top Bar
 
@@ -169,10 +180,28 @@ iframe#locationmap {
 ---------------------------------------------------*/
 
 /* Header Wrap */
-#headerwrap {
-	background: url(../img/background1.png) no-repeat center top;
+
+#introwrap {
 	margin-top: 50px;
-	padding-top:140px;
+	padding-top: 50px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-color: #ffffff
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#headerwrap {
+	background: url(../img/DC-bg-4.png) no-repeat center top;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -447,6 +476,10 @@ iframe#locationmap {
 
 sm {
 	font-size: 12px;
+}
+
+.noborder {
+	border: none;
 }
 
 .top-edge-shadow {
