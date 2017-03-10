@@ -8,7 +8,7 @@
 
 body {
   background-color: #fff;
-    font-family: "Georgia";
+    font-family: "Open Sans";
     font-weight: 300;
     font-size: 16px;
     color: #b99655;
@@ -18,11 +18,33 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Georgia";
-    font-weight: 300;
+h1, h2 {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 700;
     color: #b99655;
 }
+
+h3 {
+    font-weight: 900;
+    color: #b99655;
+	font-family: "Pinyon Script";
+	font-size: 32px;
+}
+
+h4{
+    font-weight: 600;
+    color: #b99655;
+	font-family: "Lato";
+	font-size: 24px;
+}
+
+h5, h6 {
+	font-weight: 500;
+    color: #b99655;
+	font-family: "Lato";
+	font-size: 16px;
+}
+
 
 
 /* Paragraph & Typographic */
@@ -182,7 +204,7 @@ span {
 /* Header Wrap */
 
 #introwrap {
-	margin-top: 50px;
+	margin-top: 20px;
 	padding-top: 50px;
 	text-align:center;
 	background-attachment: relative;
@@ -205,7 +227,7 @@ span {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	min-height: 400px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -286,8 +308,8 @@ span {
 }
 
 #scheduleofeventswrap {
-	background: #16202d;
-	padding-top: 20px;
+	background: #fff;
+	padding-top: 70px;
 	padding-bottom: 60px;
 	color: #b99655;
 }
@@ -326,8 +348,16 @@ span {
 	color: #b99655;
 }
 
+
+
+.hotelbuttonrow {
+	padding-top:10px;
+	padding-bottom: 10px;
+	max-width: 504px;
+}
+
 #weddingparty {
-	background: #16202d;
+	background: #fff;
 	padding-top: 20px;
 	color: #b99655;
 }
@@ -347,7 +377,7 @@ span {
 }
 
 #registrywrap {
-	padding-top: 20px;
+	padding-top: 70px;
 	color: #b99655;
 }
 
@@ -366,8 +396,8 @@ span {
 }
 
 #travelwrap {
-	background: #16202d;
-	padding-top: 20px;
+	background: #fff;
+	padding-top: 70px;
 	color: #b99655;
 }
 
@@ -434,7 +464,12 @@ span {
 .imgcell {
 	width: 100%;
 	height: 100%;
+	border-radius: 50%;
+}
 
+.imggalcell {
+	width: 100%;
+	height: 100%;
 }
 
 .photodiv {
@@ -464,6 +499,10 @@ span {
 	font-weight: 700;
 }
 
+.topsection{
+	padding-top: 50px;
+}
+
 .desc imp {
 	padding: 6px;
 	color: #b99655;
@@ -483,21 +522,21 @@ sm {
 }
 
 .top-edge-shadow {
-	-webkit-box-shadow: 0px 4px 3px 0px rgba(50, 50, 50, 0.55);
-	-moz-box-shadow:    0px 4px 3px 0px rgba(50, 50, 50, 0.55);
-	box-shadow:         0px 4px 3px 0px rgba(50, 50, 50, 0.55);
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow:    0px 2px 2px 0px rgba(50, 50, 50, 0.55);
+	box-shadow:         0px 2px 2px 0px rgba(50, 50, 50, 0.55);
 }
 
 .bottom-edge-shadow {
-	-webkit-box-shadow: inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
-	-moz-box-shadow:    inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
-	box-shadow:         inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
+	-webkit-box-shadow: inset 0px -2px 2px 0px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow:    inset 0px -2px 2px 0px rgba(50, 50, 50, 0.55);
+	box-shadow:         inset 0px -2px 2px 0px rgba(50, 50, 50, 0.55);
 }
 
 
 .imagedropshadow {
-    padding: 3px;
-    border: double 2px #b99655;
+    padding: 2px;
+    border: double 1px #b99655;
 }
 
 .btn-calendar {
