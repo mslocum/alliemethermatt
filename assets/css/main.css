@@ -608,3 +608,32 @@ fieldset[disabled] .btn-calendar.active {
 .dropup .btn-calendar .caret{
   border-bottom-color: #fff;
 }
+
+
+.col-centered {
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right: auto;
+   	margin-left: auto;
+ }
+
+.modal-dialog {
+	width:100%;
+}
+
+.modal-body > a > .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-header {
+	height: 45px;
+}
+
+.thumbnail {margin-bottom:6px;}
+
+
+}
