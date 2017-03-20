@@ -539,6 +539,13 @@ sm {
     border: double 1px #b99655;
 }
 
+.aboutimagedropshadow {
+    padding: 2px;
+    margin-bottom: 20px;
+    max-width: 280px;
+    border: double 1px #b99655;
+}
+
 .btn-calendar {
   color: #ffffff;
   border-color: #b99655;
@@ -635,5 +642,8 @@ fieldset[disabled] .btn-calendar.active {
 
 .thumbnail {margin-bottom:6px;}
 
+.registryimg {
+	width: 230px;
+}
 
 }
