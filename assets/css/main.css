@@ -685,6 +685,33 @@ fieldset[disabled] .btn-calendar.active {
 	height: 45px;
 }
 
+.blurb-modal-dialog {
+	max-width: 600px;
+}
+
+.blurb-modal-header {
+	height: 45px;
+}
+
+.blurb-modal-title {
+	text-align:center;
+	font-family: "Lato";
+    font-weight: 700;
+    font-size: 28px;
+    color: #b99655;
+}
+
+.blurb-modal-body {
+	text-align:center;
+	font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    color: #b99655;
+}
+
+}
+
+
 .thumbnail {margin-bottom:6px;}
 
 .registryimg {
