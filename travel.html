@@ -15,6 +15,7 @@
     <link href='http://fonts.googleapis.com/css?family=Cabin:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arimo:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Pinyon+Script:400,300,700' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -39,6 +40,13 @@
 	      	$('.navbar-collapse a').click(function(){
     			$(".navbar-collapse").collapse('hide');
 			});
+
+	      	function showSlides() {
+	      		$("#headerwrap").css('background', 'url(assets/img/background.png)');
+
+	      	}
+
+	      	setTimeout(showSlides, 15000); // Change image every 15 seconds
 
 	    });
 
@@ -104,128 +112,136 @@
 		</div>
 	</div>-->
 	
-<section id="scheduleofevents" name="scheduleofevents"></section>
+	
+
+<section id="travel" name="travel"></section>
 	<div id="sectionwrap" class="top-edge-shadow topsection">
 		<div class="row">
-			<div class="col-lg-11">
-				<h1>Schedule of Events</h1><hr class="whitebackground">
+			<div class="col-lg-11 col-lg-offset-1">
+				<h1>Travel</h1><hr class="whitebackground">
 			</div>
 		</div>
+
+
+			<div class="container-fluid">
+
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<h3>Planes</h3>
+						</div>
+					</div>
+					<hr class="datedivider">
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<h4>Ronald Reagan Washington National Airport (DCA)</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<a href="https://goo.gl/maps/zpz1bqjahhJ2" type="button" class="btn btn-calendar">Google Maps</a>
+						</div>
+					</div> <br />
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							Reagan is the most convenient airport.  You can easily take a taxi five miles from the Airport to any of the hotels.
+						</div><br />
+					</div>
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<h4>Dulles International Airport (IAD)</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<a href="https://goo.gl/maps/KoU4LUwNhpN2" type="button" class="btn btn-calendar">Google Maps</a>
+						</div>
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							Dulles is just as convenient as BWI.  It will also require a rental car.  The drive will take approximately 50 minutes depending on traffic.
+						</div><br />
+					</div>
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<h4>Baltimore/Washington International Airport (BWI)</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<a href="https://goo.gl/maps/i6LRWe8mCY72" type="button" class="btn btn-calendar">Google Maps</a>
+						</div>
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							BWI is also a convenient airport, but will probably require a rental car.  The drive will take approximately 50 minutes depending on traffic.
+						</div><br />
+					</div>
+					
+				</div>
+			
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<h3>Trains</h3>
+						</div>
+					</div>
+					<hr class="datedivider">
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<h4>Amtrack Union Station</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							<a href="https://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&amp;code=WAS" type="button" class="btn btn-calendar">Website</a>
+						</div>
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-xl-1 col-centered">
+							Train information
+						</div><br />
+					</div>
+				</div>
+			</div>
+
+		<div class="container-fluid fullsection">
+			<div class="row">
+				<div id="mapholder" class="col-lg-12 centered">
+					<iframe id="locationmap" src="untitled.html"></iframe>
+			
+				</div>
+			</div>
+		</div>
+
 		<div class="container-fluid">
-				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xl-1 col-centered">
-							<br />
-							<a href="assets/other/alliemattwedding.ics" type="button" class="btn btn-calendar"><b>Add Events To Calendar</b> &nbsp; <i class="icon-calendar"></i></a><br /><br />
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h3>Friday, 11.3.2017</h3>
+							<h3>Metro</h3>
 						</div>
 					</div>
 					<hr class="datedivider">
 					<div class="row">
 						<div class="col-xl-1 col-centered">
-							<h4>Welcome Drinks</h4>
+							<h4>Metro stop</h4>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xl-1 col-centered">
-							<h5>8:30 PM until 10:30 PM</h5>
+							<a href="https://www.wmata.com" type="button" class="btn btn-calendar">Map</a>
 						</div>
 					</div>
+					<br />
 					<div class="row">
 						<div class="col-xl-1 col-centered">
-							We know a lot of you have traveled far to be with us on the big day. If you are in DC Friday night, please swing by Town Hall for a cocktail and to mingle with our other guests. We've rented out the upstairs room for the occasion, starting at 9 p.m. Can't wait to see you there!
-							<br /><br />
-							<b>Attire: Business Casual</b>
+							Train information
 						</div><br />
-					</div>
-				</div>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h3>Saturday 11.4.2017</h3>
-						</div>
-					</div>
-					<hr class="datedivider">
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h4>Transportation Departs</h4>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h5>TBD</h5>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							Please meet your motor coach outside the Old Post Office Pavilion or The J.W. Marriott
-						</div><br />
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h4>Wedding Ceremony</h4>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h5>3:00 PM</h5>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							Saint Patrick's Church <br />619 10th Street <br />NW Washington, DC
-						</div><br />
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h4>The Celebration Continues</h4>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h5>6:00 PM</h5>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							Old Post Office Pavilion<br />Presidential Ballroom <br />1100 Pennslyvania Avenue<br /> Washington, DC<br /><br /> <b>Attire: Black Tie</b>
-						</div>
-						<br />
-					</div>
-				</div>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h3>Sunday, 11.5.2017</h3>
-						</div>
-					</div>
-					<hr class="datedivider">
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h4>Farewell Brunch</h4>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							<h5>9:30 AM until 11:30 AM</h5>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xl-1 col-centered">
-							We don't want the weekend to end so please join us for brunch<br /><br />Old Post Office Pavilion<br />Jefferson Room<br />1100 Pennslyvania Avenue<br /> Washington, DC
-						</div>
 					</div>
 				</div>
 	</div>
-	
-	
-	
-</div>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
