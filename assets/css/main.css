@@ -7,9 +7,9 @@
  */
 
 body {
-  background-color: #f2f2f2;
-    font-family: "Georgia";
-    font-weight: 300;
+  background-color: #fff;
+    font-family: "Open Sans";
+    font-weight: 400;
     font-size: 16px;
     color: #b99655;
 
@@ -18,11 +18,40 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Georgia";
-    font-weight: 300;
+h1, h2 {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 700;
     color: #b99655;
 }
+
+h3 {
+    font-weight: 900;
+    color: #b99655;
+	font-family: "Pinyon Script";
+	font-size: 32px;
+}
+
+h4{
+    font-weight: 600;
+    color: #b99655;
+	font-family: "Lato";
+	font-size: 24px;
+}
+
+h5 {
+	font-weight: 700;
+    color: #b99655;
+	font-family: "Lato";
+	font-size: 17px;
+}
+
+h6 {
+	font-weight: 600;
+    color: #b99655;
+	font-family: "Lato";
+	font-size: 16px;
+}
+
 
 
 /* Paragraph & Typographic */
@@ -67,7 +96,15 @@ hr.whitebackground {
     border: 0;
     height: 1px;
     background: #333;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#b99655), to(#F2F2F2), color-stop(75%, #F2F2F2));
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#b99655), to(#F2F2F2), color-stop(100%, #FFFFFF));
+}
+
+hr.datedivider {
+    border: 0;
+    height: 1px;
+    background: -moz-linear-gradient(left, #FFFFFF 0%, #f2f2f2 35%, #b99655 50%, #f2f2f2 65%, #FFFFFF 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #FFFFFF 0%,#f2f2f2 35%,#b99655 50%,#f2f2f2 65%,#FFFFFF 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #FFFFFF 0%,#f2f2f2 35%,#b99655 50%,#f2f2f2 65%,#FFFFFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 hr.bluebackground {
@@ -94,6 +131,20 @@ iframe#locationmap {
 	3.1 Topbar
 ---------------------------------------------------*/
 
+.scrollme {
+background-position: top left;
+background-size: cover;
+background: url(../img/DC-bg-4.png) no-repeat center top;background-position: bottom center;
+background-size: auto;
+background-attachment: fixed;
+background-repeat: no-repeat;
+position: absolute;
+min-width: 100%;
+width: 100%;
+min-height: 100%;
+z-index: 1;
+}
+
 #section-topbar {
 	position: fixed;
 	top: 0;
@@ -101,7 +152,10 @@ iframe#locationmap {
 	right: 0;
 	z-index: 10000;
 	overflow: visible;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "proxima-nova";
+	font-style: normal;
+	font-weight: 400;
+
 }
 
 #section-topbar a {
@@ -114,6 +168,14 @@ iframe#locationmap {
 	text-align: center;
 }
 
+span {
+	font-family: 'Fira Sans';font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  color: #b99655;
+}
 /*
 	Top Bar
 
@@ -168,15 +230,43 @@ iframe#locationmap {
 	SECTION WRAPS
 ---------------------------------------------------*/
 
+
+
+#sectionwrap {
+	background: #fff;
+	padding: 20px;
+	color: #b99655;
+	max-width: 740px;
+	margin: 100px auto 30px auto;
+}
+
 /* Header Wrap */
-#headerwrap {
-	background: url(../img/background1.png) no-repeat center top;
-	margin-top: 50px;
-	padding-top:140px;
+
+#introwrap {
+	margin-top: 20px;
+	padding-top: 50px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	width: 100%;
+	background-color: #ffffff
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#headerwrap {
+	background: url(../img/DC-bg-4.png) no-repeat center top;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -256,11 +346,14 @@ iframe#locationmap {
 	color: #b99655;
 }
 
+
 #scheduleofeventswrap {
-	background: #16202d;
+	background: #fff;
 	padding-top: 20px;
-	padding-bottom: 60px;
+	padding-bottom: 20px;
 	color: #b99655;
+	max-width: 740px;
+	margin: 100px auto 30px auto;
 }
 
 #scheduleofeventswrap h1 {
@@ -297,8 +390,16 @@ iframe#locationmap {
 	color: #b99655;
 }
 
+
+
+.hotelbuttonrow {
+	padding-top:10px;
+	padding-bottom: 10px;
+	max-width: 504px;
+}
+
 #weddingparty {
-	background: #16202d;
+	background: #fff;
 	padding-top: 20px;
 	color: #b99655;
 }
@@ -318,7 +419,7 @@ iframe#locationmap {
 }
 
 #registrywrap {
-	padding-top: 20px;
+	padding-top: 70px;
 	color: #b99655;
 }
 
@@ -337,8 +438,8 @@ iframe#locationmap {
 }
 
 #travelwrap {
-	background: #16202d;
-	padding-top: 20px;
+	background: #fff;
+	padding-top: 70px;
 	color: #b99655;
 }
 
@@ -405,11 +506,25 @@ iframe#locationmap {
 .imgcell {
 	width: 100%;
 	height: 100%;
+	border-radius: 50%;
+}
 
+.imghotelcell {
+	width: 80%;
+	height: 80%;
+	max-width: 280px;
+	max-height: 280px;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.imggalcell {
+	width: 100%;
+	height: 100%;
 }
 
 .photodiv {
-	max-width: 320px;
+	max-width: 350px;
 	max-height: 600px;
 }
 
@@ -435,6 +550,10 @@ iframe#locationmap {
 	font-weight: 700;
 }
 
+.topsection{
+	padding-top: 50px;
+}
+
 .desc imp {
 	padding: 6px;
 	color: #b99655;
@@ -449,22 +568,34 @@ sm {
 	font-size: 12px;
 }
 
+.noborder {
+	border: none;
+}
+
 .top-edge-shadow {
-	-webkit-box-shadow: 0px 4px 3px 0px rgba(50, 50, 50, 0.55);
-	-moz-box-shadow:    0px 4px 3px 0px rgba(50, 50, 50, 0.55);
-	box-shadow:         0px 4px 3px 0px rgba(50, 50, 50, 0.55);
+	border: solid 1px rgba(255, 255, 255, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+	-moz-box-shadow:    0 0 8px rgba(0, 0, 0, .4);
+	box-shadow:         0 0 8px rgba(0, 0, 0, .4);
 }
 
 .bottom-edge-shadow {
-	-webkit-box-shadow: inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
-	-moz-box-shadow:    inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
-	box-shadow:         inset 0px -4px 3px 0px rgba(50, 50, 50, 0.55);
+	-webkit-box-shadow: inset 0px -2px 2px 0px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow:    inset 0px -2px 2px 0px rgba(50, 50, 50, 0.55);
+	box-shadow:         inset 0px -2px 2px 0px rgba(50, 50, 50, 0.55);
 }
 
 
 .imagedropshadow {
-    padding: 3px;
-    border: double 2px #b99655;
+    padding: 2px;
+    border: double 1px #b99655;
+}
+
+.aboutimagedropshadow {
+    padding: 2px;
+    margin-bottom: 20px;
+    max-width: 280px;
+    border: double 1px #b99655;
 }
 
 .btn-calendar {
@@ -535,4 +666,63 @@ fieldset[disabled] .btn-calendar.active {
 
 .dropup .btn-calendar .caret{
   border-bottom-color: #fff;
+}
+
+
+.col-centered {
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right: auto;
+   	margin-left: auto;
+ }
+
+.modal-dialog {
+	width:100%;
+}
+
+.modal-body > a > .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-header {
+	height: 45px;
+}
+
+.blurb-modal-dialog {
+	max-width: 600px;
+}
+
+.blurb-modal-header {
+	height: 45px;
+}
+
+.blurb-modal-title {
+	text-align:center;
+	font-family: "Lato";
+    font-weight: 700;
+    font-size: 28px;
+    color: #b99655;
+}
+
+.blurb-modal-body {
+	text-align:center;
+	font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    color: #b99655;
+}
+
+}
+
+
+.thumbnail {margin-bottom:6px;}
+
+.registryimg {
+	width: 230px;
+}
+
 }
