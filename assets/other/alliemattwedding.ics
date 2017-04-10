@@ -52,7 +52,7 @@ DTSTAMP:20170410T012647Z
 UID:20170410T012647Z-877627743@alliemethermatt.com
 DTSTART;TZID="America/New_York":20171104T180000
 DTEND;TZID="America/New_York":20171104T230000
-SUMMARY:Wedding Reception
+SUMMARY:Wedding Reception @ Old Post Office Pavilion
 LOCATION:1100 Pennsylvania Avenue Washington\, DC 20001
 END:VEVENT
 BEGIN:VEVENT
@@ -60,7 +60,7 @@ DTSTAMP:20170410T012647Z
 UID:20170410T012647Z-989211017@alliemethermatt.com
 DTSTART;TZID="America/New_York":20171105T093000
 DTEND;TZID="America/New_York":20171105T113000
-SUMMARY:Farewell Brunch
+SUMMARY:Farewell Brunch @ Old Post office Pavilion
 DESCRIPTION:We don't want the weekend to end so please join us for brunch
 LOCATION:1100 Pennsylvania Avenue Washington\, DC 20001
 BEGIN:VALARM
