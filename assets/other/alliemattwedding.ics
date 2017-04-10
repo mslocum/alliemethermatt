@@ -27,8 +27,8 @@ DTSTAMP:20170410T012647Z
 UID:20170410T012647Z-1809583110@alliemethermatt.com
 DTSTART;TZID="America/New_York":20171103T203000
 DTEND;TZID="America/New_York":20171103T223000
-SUMMARY:Welcome Drinks @ Old Post Office Pavilion
-DESCRIPTION:If you're in DC Friday night and up for some socializing and a beverage\, join us in the Roosevelt Room at the Old Post Office Pavilion at 8:30 PM.
+SUMMARY:Welcome Party @ Old Post Office Pavilion
+DESCRIPTION:We are so excited to have you share in our big day, so please join us for drinks and desserts as we kick off our wedding weekend
 LOCATION:1100 Pennsylvania Avenue\, Washington\, DC 20001
 BEGIN:VALARM
 TRIGGER:-PT60M
