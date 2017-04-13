@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Welcome to Allie Williams and Matt Slocum's wedding website! View information about the bride and groom, the wedding party, hotels, travel, and registry details at alliemethermat.com.  The wedding will take place on November 4th, 2017 in Washington, DC.  Allison Williams and Matthew Slocum are so happy to have you join them on their special day.">
+	<meta name="description" content="Welcome to Allison (Allie) Williams and Matthew (Matt) Slocum's wedding website! View information about the bride and groom, the wedding party, hotels, travel, and registry details at alliemethermat.com.  The wedding will take place on November 4th, 2017 in Washington, DC.  Allison Williams and Matthew Slocum are so happy to have you join them on their special day.">
 	<meta name="author" content="Allison Williams">
 	<link rel="shortcut icon" href="assets/ico/favicon.png">
 
@@ -53,6 +53,35 @@
 
 
 	</script>
+	<script>
+var end = new Date('11/04/2017 4:00 PM');
+
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
+
+    function showRemaining() {
+        var now = new Date();
+        var distance = end - now;
+        if (distance < 0) {
+
+            clearInterval(timer);
+            document.getElementById('countdown').innerHTML = "Today's the day!";
+
+            return;
+        }
+        var days = Math.floor(distance / _day);
+        var hours = Math.floor((distance % _day) / _hour);
+        var minutes = Math.floor((distance % _hour) / _minute);
+        var seconds = Math.floor((distance % _minute) / _second);
+
+        document.getElementById('countdown').innerHTML = days + ' days to go!';
+    }
+
+    timer = setInterval(showRemaining, 1000);
+</script>
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -117,8 +146,10 @@
 			<div class="row centered">
 				<div class="col-lg-12">
 					<br /><br />
-					<h1 style="font-size:60px;">Allie & Matt</h1>
-					<h3 style="font-size:40px;">11.4.2017</h3>
+					<h1 style="font-size:68px;word-spacing:-20px;">Allie & Matt</h1>
+					<h4 style="font-size:40px;">November 4th, 2017</h4>
+					<h5 style="font-size:24px;"><i>Washington, District of Columbia</i></h5>
+					<h5 style="font-size:18px;"><i><div id="countdown"></div></i></h5>
 				</div><!--/.col-lg-12 -->
 			</div><!--/.row -->
 		</div><!--/.container -->
