@@ -27,7 +27,7 @@ DTSTAMP:20170410T012647Z
 UID:20170410T012647Z-1809583110@alliemethermatt.com
 DTSTART;TZID="America/New_York":20171103T203000
 DTEND;TZID="America/New_York":20171103T223000
-SUMMARY:Welcome Party @ Old Post Office Pavilion
+SUMMARY:Welcome Party @ Franklin Study, OPOP
 DESCRIPTION:We are so excited to have you share in our big day, so please join us for drinks and desserts as we kick off our wedding weekend
 LOCATION:1100 Pennsylvania Avenue\, Washington\, DC 20001
 BEGIN:VALARM
@@ -60,7 +60,7 @@ DTSTAMP:20170410T012647Z
 UID:20170410T012647Z-989211017@alliemethermatt.com
 DTSTART;TZID="America/New_York":20171105T093000
 DTEND;TZID="America/New_York":20171105T113000
-SUMMARY:Farewell Brunch @ Old Post office Pavilion
+SUMMARY:Farewell Brunch @ Lincoln Library, OPOP
 DESCRIPTION:We don't want the weekend to end so please join us for brunch
 LOCATION:1100 Pennsylvania Avenue Washington\, DC 20001
 BEGIN:VALARM
